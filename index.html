@@ -11,48 +11,60 @@
         <meta name="theme-color" content="#ffffff">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Ulka Patel - UX/UI Designer</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <img src="img/logo.svg">
-        <nav>
-            <ul>
-                <li><a href="index.html">Work</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <div>
-                <h1>Hello, I am Ulka Patel</h1>
-                <p>A UI/UX designer based in Los Angeles. I am passionate about creating user-centric design solutions and transforming ideas into appealing designs that are simple and enjoyable.</p>
+        <header>
+            <div class="container">
+                <img src="img/logo.svg" class="logo">
+                <nav>
+                    <ul class="top-nav">
+                        <li><a href="index.html">Work</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-            <div>
-                <h2>My Work</h2>
-                <div>
-                <picture>
-                    <source srcset="img/moneytor/moneytor_feature-image@1x.png" media="(max-width:767px)">
-                    <img src="img/moneytor/moneytor_feature-image@2x.png" alt="Moneytor Money Saving App Mockup">    
-                </picture>
-                <h3>Moneytor</h3>
-                <p>Moneytor is a money saving app that allows you to organize and optimize your
-                    spending and savings and to efficiently work towards your saving goals.</p>
-                <a href="#">View Project</a>
+        </header>
+        <main>
+            <div id="hero">
+                <div class="container">
+                    <h1>Hello, I am Ulka Patel</h1>
+                    <p class="sub-title">A UI/UX designer based in Los Angeles. I am passionate about creating user-centric design solutions and transforming ideas into appealing designs that are simple and enjoyable.</p>
                 </div>
-                <div>
-                <picture>
-                    <source srcset="img/retroglamour/retroglamour_feature-image@1X.png" media="(max-width:767px)">
-                    <img src="img/retroglamour/retroglamour_feature-image@2X.png" alt="Retro Glamour Vintage Clothing App Mockup">    
-                </picture>
-                <h3>Retro Glamour</h3>
-                <p>Retro Glamour is a vintage clothing sales app that allows users to buy and sell vintage clothing items online.</p>
-                <a href="#">View Project</a>
+            </div>
+            <div id="work">
+                <div class="container">
+                    <h2>My Work</h2>
+                    <div class="row">
+                        <picture>
+                            <source srcset="img/moneytor/moneytor_feature-image@1x.png" media="(max-width:767px)">
+                            <img src="img/moneytor/moneytor_feature-image@2x.png" alt="Moneytor Money Saving App Mockup">    
+                        </picture>
+                        <h3>Moneytor</h3>
+                        <p>Moneytor is a money saving app that allows you to organize and optimize your
+                            spending and savings and to efficiently work towards your saving goals.</p>
+                        <a href="moneytor.html" class="button">View Project</a>
+                    </div>
+                    <div class="row">
+                        <picture>
+                            <source srcset="img/retroglamour/retroglamour_feature-image@1X.png" media="(max-width:767px)">
+                            <img src="img/retroglamour/retroglamour_feature-image@2X.png" alt="Retro Glamour Vintage Clothing App Mockup">    
+                        </picture>
+                        <h3>Retro Glamour</h3>
+                        <p>Retro Glamour is a vintage clothing sales app that allows users to buy and sell vintage clothing items online.</p>
+                        <a href="#" class="button">View Project</a>
+                        <a href="index.html" class="button back-to-top">Back to Top</a>
+                    </div>
                 </div>
             </div>
         </main>
 
         <footer>
-            <div>
+            <div class="container">
                 <h2>Get in Touch</h2>
                 <p>
                     Looking for a designer for your next project? Contact me!
