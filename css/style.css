@@ -29,15 +29,13 @@ nav > ul > li > a {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-}
-body {
     background-color: #f6f0de;
     font-family: 'Poppins', sans-serif;
     font-size: 16px; /* Sets the font size to 16px */
     font-weight: 400; /* Sets the font weight to 300 */
     line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
     color: #000000;
+    margin: 0px;
 }
 h1, h2, h3, h4 {
     line-height: 1.4;
@@ -131,11 +129,46 @@ nav > ul > li > a:hover{
         text-align:center;
   }
 
-  .logo{
+  .logo {
       max-width:80px;
   }
 
   header{
     text-align: center;
     padding: 10px 0;
+    position: fixed;
+    background: #F6F0DE; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5)  ; 
+    width:100%;
   }
+
+  #hero {
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+  }
+
+  main {
+    padding-top: 133px;
+  }
+
+  nav > ul > li {
+    display: inline-block;
+}
+
+.icon {
+    max-width: 40px
+}
+
+.email-me-button {
+    padding-bottom: 25px;
+}
+
+footer {
+    text-align: center;
+}
+
+ 
